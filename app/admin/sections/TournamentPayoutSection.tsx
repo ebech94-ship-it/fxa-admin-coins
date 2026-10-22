@@ -452,7 +452,7 @@ return (
  selectedTournament.prizeModel === "dynamic"
  ? formatNum(selectedTournament.collectedFunds ?? 0)
  : formatNum(selectedTournament.prizePool ?? 0)
-} $
+} Coins
     </div>
   </div>
 )}
@@ -484,7 +484,7 @@ return (
       selectedTournament?.prizeModel === "dynamic"
         ? selectedTournament?.collectedFunds ?? 0
         : selectedTournament?.prizePool ?? 0
-    } $
+    } Coins
   </strong>
 </div>
 
@@ -651,7 +651,7 @@ return (
           </div>
 
           <div style={styles.amount}>
-            {formatNum(payoutAmount)} $
+            {formatNum(payoutAmount)} Coins
           </div>
 
           <div

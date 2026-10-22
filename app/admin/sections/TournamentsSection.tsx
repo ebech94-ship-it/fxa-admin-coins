@@ -408,11 +408,11 @@ Math.max(0,Number(p.percentage))
 💰 {
  t.prizeModel === "dynamic"
  ? "Auto Pool"
- : t.prizePool
+ : `${t.prizePool} Coins`
 }
 </div>
 
-    <div>💵 {t.entryFee}</div>
+   <div>💵 {t.entryFee} Coins</div>
 
     <div>⏱ {t.durationMinutes} mins</div>
   </div>
@@ -708,7 +708,7 @@ marginBottom:30
 {
  selectedTournament.prizeModel === "dynamic"
  ? "Generated From Entries"
- : selectedTournament.prizePool
+ : `${selectedTournament.prizePool} Coins`
 }
 </b>
 </div>
@@ -716,13 +716,13 @@ marginBottom:30
 <div style={styles.infoBox}>
 💵 Entry Fee
 <br/>
-<b>{selectedTournament.entryFee}</b>
+<b>{selectedTournament.entryFee} Coins</b>
 </div>
 
 <div style={styles.infoBox}>
 🔁 Rebuy
 <br/>
-<b>{selectedTournament.rebuyFee}</b>
+<b>{selectedTournament.rebuyFee} Coins</b>
 </div>
 
 <div style={styles.infoBox}>
@@ -783,7 +783,7 @@ borderBottom:"1px solid #242424"
 </div>
 
 <div>
-{p.amount}
+{p.amount} Coins
 </div>
 
 </div>
