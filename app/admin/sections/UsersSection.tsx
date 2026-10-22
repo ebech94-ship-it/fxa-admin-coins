@@ -78,7 +78,7 @@ interface AdminUser {
 /* ---------------- DB ---------------- */
 
 
-const BACKEND_URL = "https://forexapp2-backend.onrender.com";
+const BACKEND_URL = "https://fxa-playstore-backend.onrender.com";
 
 /* ---------------- COMPONENT ---------------- */
 

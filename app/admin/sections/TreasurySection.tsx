@@ -30,7 +30,7 @@ type DateInput = string | number | Date | FirestoreTimestamp | null | undefined;
 type Styles = Record<string, React.CSSProperties>;
 
 export default function TreasuryPage() {
-  const API_BASE = "https://forexapp2-backend.onrender.com";
+  const API_BASE = "https://fxa-playstore-backend.onrender.com";
 
   const [treasury, setTreasury] = useState<TreasuryData | null>(null);
   const [transactions, setTransactions] = useState<Transaction[]>([]);
